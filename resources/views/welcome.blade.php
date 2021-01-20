@@ -46,7 +46,7 @@
                                 alt=""
                                 />
                             </div>
-                        <a href="#" class="px-1 py-1 font bg-indigo-500 text-center text-white rounded-lg">Spots</a>
+                        <a href="#" class="px-1 py-1 font bg-indigo-500 text-center text-white rounded-lg">allSpots</a>
                         </div>
                     </div>
                     <!-- component -->
@@ -85,7 +85,7 @@
                                 alt=""
                                 />
                             </div>
-                        <a href="#" class="px-1 py-1 font bg-indigo-500 text-center text-white rounded-lg">Spots</a>
+                        <a href="#" class="px-1 py-1 font bg-indigo-500 text-center text-white rounded-lg"> mySpots</a>
                         </div>
                     </div>
                     </div>
