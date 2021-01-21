@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SpotController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,8 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::get('/allspots',[SpotController::class, 'index'])->name('allspots.index');
+Route::get('/allspots/show/{id}',[SpotController::class, 'show'])->name('allspots.show');
 
 require __DIR__.'/auth.php';
